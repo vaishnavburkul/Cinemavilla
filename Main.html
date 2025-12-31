@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CinemaVilla.Com</title>
+</head>
+
+<body bgcolor="#FCE4EC">
+
+<!-- MAIN HEADING -->
+
+<h1 align="center" style="color:#000000;">
+    Cinema Villa 🎬 
+    <img src="https://scontent.fbom57-1.fna.fbcdn.net/v/t39.30808-6/351152598_935742131022583_1959673884700509480_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=2Ra4F13kcsUQ7kNvwFqhAHZ&_nc_oc=AdlpDA3FBQcNOr0SGJj6UHFIjyKDdzEehby1EIe0hxye8Kcs4Cl553Q5kuhOKfi0X24&_nc_zt=23&_nc_ht=scontent.fbom57-1.fna&_nc_gid=3O8SHdQj6YEQWSGa4BlXow&oh=00_AfnmunmarlPz4mANtsDlNpzcUwkN6eiZ4doBiiMJAAnYMA&oe=694EE759"
+     width="100" height="100" align="left" hspace="20" vspace="20">
+</h1>
+
+<!-- MAIN LAYOUT TABLE -->
+<table width="100%" height="500" border="1" cellpadding="5" bgcolor="#F8BBD0">
+
+<tr>
+    <!-- LEFT NAVIGATION -->
+    <td width="25%" valign="top" bgcolor="#F48FB1">
+
+        <h3 align="center" style="color:#6A1B9A;">Navigation</h3>
+        <hr>
+
+        <ul style="color:#6A1B9A;">
+            <li><a href="#home" style="color:#6A1B9A;">Home</a></li><br>
+            <li><a href="#movies" style="color:#6A1B9A;">Movie Schedule</a></li><br>
+            <li><a href="#booking" style="color:#6A1B9A;">Book Tickets</a></li>
+        </ul>
+
+    </td>
+
+    <!-- RIGHT CONTENT -->
+    <td width="75%" valign="top" bgcolor="#FDF0F5">
+
+        <!-- HOME SECTION -->
+        <a name="home"></a>
+        <h2 align="center" style="color:#AD1457;">Welcome😊</h2>
+        <p align="center" style="color:#6D214F;">
+            Welcome to the online movie ticket booking portal.
+            View movie schedules and book tickets easily.
+        </p>
+
+        <hr>
+
+        <!-- MOVIE TABLE SECTION -->
+        <a name="movies"></a>
+        <h2 align="center" style="color:#AD1457;">Now Showing👇</h2>
+
+        <table border="1" cellpadding="10" cellspacing="4" width="90%" align="center" bgcolor="#FCE4EC">
+
+            <caption style="color:#880E4F;"><b></b></caption>
+
+            <tr bgcolor="#F06292">
+                <th rowspan="2">Movie ID</th>
+                <th rowspan="2">Movie Name</th>
+                <th rowspan="2">Genre</th>
+                <th colspan="2">Show Time</th>
+                <th rowspan="2">Screen</th>
+            </tr>
+
+            <tr bgcolor="#F8BBD0">
+                <th>Start</th>
+                <th>End</th>
+            </tr>
+
+            <tr>
+                <td align="center">MV101</td>
+                <td>John Wick</td>
+                <td>Action</td>
+                <td align="center">10:00 AM</td>
+                <td align="center">01:00 PM</td>
+                <td>Screen 1</td>
+            </tr>
+
+            <tr bgcolor="#FDF0F5">
+                <td align="center">MV102</td>
+                <td>Interstellar</td>
+                <td>Sci-Fi</td>
+                <td align="center">11:00 AM</td>
+                <td align="center">01:00 PM</td>
+                <td>Screen 2</td>
+            </tr>
+
+            <tr>
+                <td align="center">MV103</td>
+                <td>Shrek 2</td>
+                <td>Animation</td>
+                <td align="center">12:00 PM</td>
+                <td align="center">03:00 PM</td>
+                <td>Screen 3</td>
+            </tr>
+
+            <tr bgcolor="#FDF0F5">
+                <td align="center">MV104</td>
+                <td>Prisoners</td>
+                <td>Thriller</td>
+                <td align="center">03.00 PM</td>
+                <td align="center">06:00 PM</td>
+                <td>Screen 4</td>
+            </tr>
+
+            
+            <tr bgcolor="#FDF0F5">
+                <td align="center">MV105</td>
+                <td>Jumanji</td>
+                <td>Adventure</td>
+                <td align="center">04:00 PM</td>
+                <td align="center">07:00 PM</td>
+                <td>Screen 5</td>
+            </tr>
+
+            <tr bgcolor="#FDF0F5">
+                <td align="center">MV106</td>
+                <td>Forrest Gump</td>
+                <td>Drama</td>
+                <td align="center">6:00 PM</td>
+                <td align="center">9:00 PM</td>
+                <td>Screen 6</td>
+            </tr>
+
+            <tr bgcolor="#FDF0F5">
+                <td align="center">MV106</td>
+                <td>Fury</td>
+                <td>Horror</td>
+                <td align="center">09:00 PM</td>
+                <td align="center">12:00 AM</td>
+                <td>Screen 7</td>
+            </tr>
+
+        </table>
+
+        <br><hr>
+
+        <!-- BOOKING FORM SECTION -->
+        <a name="booking"></a>
+        <h2 align="center" style="color:#AD1457;">Movie Ticket Booking Form</h2>
+
+        <form method="post">
+
+        <table align="center" cellpadding="8" width="70%" border="0" bgcolor="#FCE4EC">
+
+            <tr>
+                <td>Customer Name:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+
+            <tr>
+                <td>Email ID:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Preferred Seat Type:</td>
+                <td>
+                    <input type="checkbox"> Regular
+                    <input type="checkbox"> Premium
+                    <input type="checkbox"> Recliner
+                </td>
+            </tr>
+
+            <tr>
+                <td>Select Movie:</td>
+                <td>
+                    <select>
+                        <option>John Wick</option>
+                        <option>Interstellar</option>
+                        <option>Shrek 2</option>
+                        <option>Prisoners</option>
+                        <option>Jumanji</option>
+                        <option>Forrest Gump</option>
+                        <option>Fury</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Number of Tickets:</td>
+                <td>
+                    <input type="number" min="1" max="10">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Additional Notes:</td>
+                <td>
+                    <textarea rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Book Now" style="background-color:#880E4F; color:white;">
+                    <input type="reset" value="Reset" style="background-color:#AD1457; color:white;">
+                    <input type="button" value="Help" style="background-color:#D81B60; color:white;">
+                </td>
+            </tr>
+
+        </table>
+
+        </form>
+
+    </td>
+</tr>
+
+</table>
+
+</body>
+</html>
